@@ -1,4 +1,4 @@
-import pyte
+import pytest
 
 # continuous integration - test code everytime something new is added w/ Travis-CI
 @pytest.mark.parametrize("a, b, expected", [
