@@ -8,8 +8,6 @@ import pytest
     (2, 10, 12),
     (0.1, 0.2, 0.3)
     ])
-
-
 def test_add(a, b, expected):
     from calculate import add
     result = add(a, b)
@@ -22,8 +20,6 @@ def test_add(a, b, expected):
     (-2, 5, -7),
     (10, 2, 8)
     ])
-
-
 def test_subtract(a, b, expected):
     from calculate import subtract
     result = subtract(a, b)
